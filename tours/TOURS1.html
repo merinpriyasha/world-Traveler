@@ -1,0 +1,561 @@
+<html>
+<head>
+	<title>Tours</title>
+
+
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(tour1.jpg);
+	height:80vh;
+	background-size:cover;
+	background -position:center;	
+}
+
+ul{	float:right;
+	margin:18px;
+	padding:5px; 10px;
+	list-style:none;	
+		
+}
+
+ul li{
+	display:inline-block;
+	
+
+}
+
+ul li.active a{
+	background-color:#f00;
+	COLOR:#fff;
+}
+
+ul li a{
+	font-size:20px;
+	padding:5px 10px;
+	font-style:centuary Gothic;
+	border:1px solid transperant;
+	color:#fff;
+	margin:20px;
+	transition:0.6s ease;
+	text-decoration:none;
+	background-color:#aaa;
+	
+	
+}
+
+ul li a:hover{
+	background-color:#fff;
+	color:#aaa;
+
+}
+
+.logo img{
+		float:left;
+		width:210px;
+		margin:05px;	
+		padding:20px;
+		top:10%;
+}
+
+.main{
+	max-width:1200px
+	margin:auto;
+}
+
+.title{
+	position:absolute;
+	top:28%;
+	left:42%;
+	align:center;
+
+}
+
+.title{
+	color:#fff;
+	font-size:300%
+
+}
+.button{
+	position:absolute;
+	top:110%;
+	left:48%;
+	transform:translate(-50%,-50%);	
+}
+
+.btn{	
+	padding:3px 30px;	
+	color:#fff;
+	font-size:20px;
+	border:0px solid #fff;
+	text-decoration:none;
+	background-color:#f00 
+}
+
+
+.btn:hover{
+	background-color:#ffF;
+	color:#000;
+}	
+
+
+.container {
+	width:95%;
+	min-height: 500px;
+	background:#f2f2f2;
+	margin:70px auto 0;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;		
+}
+
+
+	
+.container .box{
+	position:relative;
+	width:537px;
+	height:537px;
+	background:#ff0;
+	margin:13px;
+	box-sizing:border-box;
+	display:inline-block;	
+}
+
+
+.container .box .imagbox{
+	position:relative;
+	overflow:hidden;
+}
+
+.container .box .imagbox img{
+	width:100%;
+	height:100%;
+	transition:transform 2s;	
+}
+
+.container .box:hover .imagbox img{
+	transform:scale(1.2);
+}
+
+.container .box .details{
+	position:absolute;
+	top:10px;
+	left:10px;
+	bottom:10px;
+	right:10px;
+	background:rgba(0,0,0,.8);
+	transform:scaleY(0);
+	transition:transform .3s;
+}
+
+.container .box:hover .details{
+	transform:scaleY(1);
+}
+
+.container .box .details .contents{
+	position:absolute;
+	text-align:center; 
+	top:25%;
+	left:05%;
+	padding:15px;
+	color:#fff;
+	
+}
+
+.container .box .details .contents h2{
+
+	padding:0;
+	font-size:34px;
+	color:#ff0;
+	display:inline-block;
+
+}
+
+.container .box .details .contents h4{
+	padding:10px;
+	color:#fff;
+	font-family:Courier New;
+	margin:0,0,0,10%;
+	display:inline-block;
+
+	
+
+
+}
+.container .box .details .contents p{
+	margin:10px;
+	padding:0;
+	font-size:35px;
+	color:#fff;
+	display:inline-block;
+	
+
+}
+
+
+.topic{
+	margin:25px;
+	Font-size:50px;
+	text-align:center;
+	background-color:#ff0 15px;
+	
+}
+
+
+
+
+.contact p{
+	text-align:center;
+	mardin:30px;
+}
+
+.vedio h1{
+	text-align:center;
+}
+
+
+
+.about{
+	background:#363131;
+	color:#fff;
+	width:100%;
+	align:center;
+	
+}
+.about td{
+	font-size:15px;
+	
+}
+
+.footer{
+	background:#221f1f;
+	height:75px;
+	color:#fff;
+	font-size:45px;
+	text-align:center;
+	margin:0px;
+	padding:10px;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+<header>	
+<nav>	
+<Div class="main">
+	
+		<ul>
+			<li class="active"><a href="../home/home1.html"> Home</a></li>
+			<li><a href="#">Tours</a></li>
+			<li><a href="../services/service.html">Services</a></li>
+			<li><a href="../about us/About 02.html">About us</a></li>
+			<li><a href="../contact us/contact02.html">Contact Us</a></li>
+			
+		</ul>
+	</Div>
+		
+		<div class="logo"> 
+			<img src="logo1.png">
+		
+		</div>
+		
+		</nav>	
+			<div class="title">
+				<h1>Tours</h1>
+			</div>
+</header>
+<HR><BR>
+
+<div class="topic"><b><u>OUR TOURS</b></u>
+</div>
+
+
+<div>
+<div class="container">
+	<div class="box">
+		<div class="imagBox">
+			<img src="kul1.jpg">
+		</div>
+			<div class="details">
+				<div class="contents">
+				<h4>03 NIGHTS & 04 DAYS</H4>	
+				<H2>KUALALUMPUR</H2>
+				<P>Sunway Lagoon Tour</p>
+
+<div class="button">
+	<a href="../kul1/kulsite.html" class="btn">View Tour</a>	
+</div>	
+
+		</div>	
+
+
+	
+
+			</div>
+	</div>
+	<div class="box">
+		<div class="imagBox">
+			<img src="viet1.jpg">
+		</div>
+			<div class="details">
+				<div class="contents">
+				<h4>04 NIGHTS & 05 DAYS</H4>	
+				<H2>VIETNAM TOUR</H2>
+				<P>Hanoi-Halong</p>
+				<div class="button">
+	<a href="../viat/viet.html" class="btn">View Tour</a>	
+</div>	
+
+				</div>	
+
+			</div>
+	</div>
+	<div class="box">
+				<div class="imagBox">
+			<img src="manali.jpg">
+		</div>
+			<div class="details">
+				<div class="contents">
+				<h4>03 NIGHTS & 04 DAYS</H4>	
+				<H2>SHIMLA & MANALI</H2>
+				<P>Snow in Summer</p>
+<div class="button">
+	<a href="../manali/manali.html" class="btn">View Tour</a>	
+</div>	
+
+				</div>	
+
+			</div>
+	</div>
+	<div class="box">
+			<div class="imagBox">
+			<img src="dubai.jpg">
+		</div>
+			<div class="details">
+				<div class="contents">
+				<h4>03 NIGHTS & 04 DAYS</H4>	
+				<H2>DUBAI  TOUR    </H2>
+				<P>Trio Tour</p>
+			
+<div class="button">
+	<a href="../dubai/dubai.html" class="btn">View Tour</a>	
+</div>	
+
+				</div>	
+
+			</div>
+	
+	</div>
+	<div class="box">
+			<div class="imagBox">
+			<img src="cairo.jpg">
+		</div>
+			<div class="details">
+				<div class="contents">
+				<h4>05 NIGHTS & 06 DAYS</H4>	
+				<H2>CAIRO TOUR    </H2>
+				<P>Safari Voyage</p>
+			
+<div class="button">
+	<a href="../cairo/cairo.html" class="btn">View Toure</a>	
+</div>	
+
+				</div>	
+
+			</div>
+	</div>
+
+
+	<div class="box">
+			<div class="imagBox">
+			<img src="taj.jpg">
+		</div>
+			<div class="details">
+				<div class="contents">
+				<h4>05 NIGHTS & 06 DAYS</H4>	
+				<H2>GOLDEN TRIANGLE TOUR</H2>
+				<P>India Tour</p>
+				<div class="button">
+	<a href="../india/india.html" class="btn">View Tour</a>	
+</div>	
+
+				</div>	
+
+			</div>
+
+	</div>
+	<div class="box">
+			<div class="imagBox">
+			<img src="paris.jpg">
+		</div>
+			<div class="details">
+				<div class="contents">
+				<h4>05 NIGHTS & 06 DAYS</H4>	
+				<H2>PARIS TOUR</H2>
+				<P>Eiffel Tower</p>
+				<div class="button">
+	<a href="../paris/paris.html" class="btn">View Tour</a>	
+</div>	
+
+				</div>	
+
+			</div>
+	
+	</div>
+
+	<div class="box">
+			<div class="imagBox">
+			<img src="bali.jpg">
+		</div>
+			<div class="details">
+				<div class="contents">
+				<h4>03 NIGHTS & 04 DAYS</H4>	
+				<H2>BALI TOUR</H2>
+				<P>Kintamani Ubub</p>
+				<div class="button">
+	<a href="../bali/bali.html" class="btn">View Tour</a>	
+</div>	
+
+				</div>	
+
+			</div>	
+	
+	</div>
+	<div class="box">
+			<div class="imagBox">
+			<img src="sin.jpg">
+		</div>
+			<div class="details">
+				<div class="contents">
+				<h4>03 NIGHTS & 04 DAYS</H4>	
+				<H2>SINGAPORE</H2>
+				<P>Night Safari</p>
+				<div class="button">
+	<a href="../sin/sin.html" class="btn">View Tour</a>	
+</div>	
+
+				</div>	
+
+			</div>	
+	
+	</div>
+	<div class="box">
+			<div class="imagBox">
+			<img src="ban.jpg">
+		</div>
+			<div class="details">
+				<div class="contents">
+				<h4>04 NIGHTS & 05 DAYS</H4>	
+				<H2>BANGKOK</H2>
+				<P>Bliss Getaway</p>
+				<div class="button">
+	<a href="../ban/ban.html" class="btn">View Tour</a>	
+</div>	
+
+				</div>	
+
+			</div>		
+		
+	</div>
+	<div class="box">
+<div class="imagBox">
+			<img src="star.jpg">
+		</div>
+			<div class="details">
+				<div class="contents">
+				<h4>03 NIGHTS & 04 DAYS</H4>	
+				<H2>STAR GEMINI</H2>
+				<P>Cruise Tour</p>
+				<div class="button">
+	<a href="../star/star.html" class="btn">View Tour</a>	
+</div>	
+
+				</div>	
+
+			</div>
+
+
+</div>
+
+	<div class="box">
+			<div class="imagBox">
+			<img src="male.jpg">
+		</div>
+			<div class="details">
+				<div class="contents">
+				<h4>03 NIGHTS & 04 DAYS</H4>	
+				<H2>MALDIVES</H2>
+				<P>Paradise Tour</p>
+				<div class="button">
+	<a href="../male/male.html" class="btn">View Tour</a>	
+</div>	
+
+				</div>		
+	</div>
+	
+
+</div>
+</div>
+<br><hr>
+<div>
+<table class="about" align="center" width="1200px" height="100px" >
+	<tr>
+	
+		<th align="left"><font size="5"><u>About</u></th></font>
+		<th align="left"><font size="5"><u>Contact us</u></th></font>
+	
+	</tr>
+
+	<tr>
+		<td>Travel Data Travels & Tours (Pvt) Ltd</td>
+
+		<td><a href=""><img src="1.jpg" width="35px">		 info@worldtraveller.lk</td></a>
+		
+	</tr>
+	
+
+	<tr>
+		<td>is Sri Lanka’s premier, holistic travel company.</td>
+		<td><a href=""><img src="2.jpg" width="40px">	  +94765678159</td></a>
+	</tr>
+
+
+	<tr>
+		<td>Over 30 years of experience gives us unique insight</td>
+		<td><a href="" color="white"><img src="3.jpg" width="40px">  +94032228457</td></a>
+	</tr>
+
+
+
+	<tr>
+		<td>to ensure your travels are managed end-to-end</td>
+		<td><a href=""><img src="4.jpg" width="35px"> 	#Worldtraveler.lk</td></	a>
+	</tr>
+
+
+
+</table>
+</div>
+<div>
+<footer class="footer"><marquee>
+w w w . w o r l d t r a v e l e r . l k</marquee>    
+
+
+</marquee></footer>
+</div>
+
+
+			
+</body>
+</html>
